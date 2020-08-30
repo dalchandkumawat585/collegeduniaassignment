@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/collegeduniaassignment/static/css/main.80ebb313.chunk.css",
+    "main.js": "/collegeduniaassignment/static/js/main.99450456.chunk.js",
+    "main.js.map": "/collegeduniaassignment/static/js/main.99450456.chunk.js.map",
+    "runtime-main.js": "/collegeduniaassignment/static/js/runtime-main.5c8df2ce.js",
+    "runtime-main.js.map": "/collegeduniaassignment/static/js/runtime-main.5c8df2ce.js.map",
+    "static/js/2.eac6fc33.chunk.js": "/collegeduniaassignment/static/js/2.eac6fc33.chunk.js",
+    "static/js/2.eac6fc33.chunk.js.map": "/collegeduniaassignment/static/js/2.eac6fc33.chunk.js.map",
+    "index.html": "/collegeduniaassignment/index.html",
+    "precache-manifest.1dfc104ab64783639bf3e39f7ed59921.js": "/collegeduniaassignment/precache-manifest.1dfc104ab64783639bf3e39f7ed59921.js",
+    "service-worker.js": "/collegeduniaassignment/service-worker.js",
+    "static/css/main.80ebb313.chunk.css.map": "/collegeduniaassignment/static/css/main.80ebb313.chunk.css.map",
+    "static/js/2.eac6fc33.chunk.js.LICENSE.txt": "/collegeduniaassignment/static/js/2.eac6fc33.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/collegeduniaassignment/static/media/college_01.8793ec0e.jpg",
+    "static/media/college_02.jpg": "/collegeduniaassignment/static/media/college_02.619ee97e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c8df2ce.js",
+    "static/js/2.eac6fc33.chunk.js",
+    "static/css/main.80ebb313.chunk.css",
+    "static/js/main.99450456.chunk.js"
+  ]
+}
