@@ -1,38 +1,217 @@
-.App {
-  text-align: center;
+html{
+  background-color:#F9F9F9;
+  min-height:100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body{
+  width:85%;
+  margin: 30px auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.colleges{
+  font-family: DINPro;
+  font-size: 18.5px;
+  font-weight: 500;
+  line-height: 0.97;
+  color: var(--greyish-brown);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.col{
+  width:50%;
+  display: inline-block;
+}
+.card{
+  border-radius: 3.8px;
+  box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+  border: solid 0.2px var(--greyish-brown);
+  background-color: #ffffff;
+  margin: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.content{
+  padding:10px;
+}
+.leftcontent{
+  display:inline-block;
+  width:70%;
+}
+.rightcontent{
+  display:inline-block;
+  text-align: right;
+  vertical-align: top;
+  width:30%;
+}
+.collegename{
+  font-family: DINPro;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 0.97;
+  color: var(--greyish-brown);
+}
+.nearby{
+  font-family: DINPro;
+  font-size: 17px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: var(--greyish-brown);
+}
+.awayfrom{
+  font-family: DINPro;
+  font-size: 17px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #adadad;
+}
+.morenearby{
+  font-family: DINPro;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #adadad;
+}
+.match{
+  font-weight: bold;
+  color: #37b396;
+}
+.offer{
+  width: 375px;
+  height: 35px;
+  background-color: #ccf5e7;
+  font-size:14px;
+  margin-left:-10px;
+  border-radius: 0 20px 20px 0;
+  padding:12px 0 0 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+}
+.discount{
+  text-indent: -12px;
+  display: inline-block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+  padding-left: 24px;
+  background: #dd1c26;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.cancel{
+  text-indent: -12px;
+  display: inline-block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+  list-style-type: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.price{
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.89;
+  letter-spacing: normal;
+  color: #dd1c26;
+}
+h1, h2,h3, h4, h5, h6{
+  margin: 5px;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./college_01.jpg");
+  height: 240px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.fa{
+  font-size: 14px;
+}
+.checked {
+  color: orange;
+}
+.bottom{
+  position: absolute;
+  bottom: 0;
+  margin: 0 5px 10px 5px;
+  width: 100%;
+}
+.bestcollege{
+  border-radius: 20px;
+  background: white;
+  display: inline-block;
+  padding: 10px;
+  margin-left:5px;
+  font-weight: 500;
+  color: #444444;
+}
+.bottomright{
+  display: inline-block;
+  color: white;
+  font-size: 13.5px;
+  font-weight: 500;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+.top{
+  font-size: 13.5px;
+  font-weight: 500;
+  color:white;
+  position: absolute;
+  top:30px;
+  right: 10px;
+  background-color:#f5a626;
+  border-radius: 5px;
+  padding: 0 10px;
+  text-align: center;
+}
+p{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding:5px;
+}
+.promotion{
+  position: absolute;
+  right: 0;
+  margin-top: -15px;
+  background-color: #68a7ff;
+  width: 125px;
+  margin-right: 0;
+  color: white;
+  padding: 5px;
+  padding-right: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: right;
+}
+.promotion h3{
+  margin:0;
+}
+@media only screen and (max-width: 600px) {
+  .body{
+    width:100%;
+    margin:0;
   }
-  to {
-    transform: rotate(360deg);
+  .col{
+    width:100%;
   }
+}
+.card:hover{
+  box-shadow: 0 0 100px rgba(33,33,33,.2); 
 }
